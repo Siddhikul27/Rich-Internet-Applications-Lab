@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=deice-width, initial-scale=1">
+		<meta charset="description" content="">
+		<meta charset="author" content="">
+
+		<title>Send a Text</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstarp/3.3.7/css/bootstarp.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAKycuHAHRg320mUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	</head>
+
+	<body>
+		<div class="container">
+
+			<form method="post" action="/send">
+				<h2>Send a Text</h2>
+				<label for="inputnumber" class="sr-only">Phone Number</label>
+				<input type="Number" name="inputnumber" class="from-control" placeholder="Phone Number" required autofocus>
+				<label for="inputmessage" class="sr-only">Message</label>
+				<input type="text" name="inputmessage" class="from-control" placeholder="Message" required>
+				<button class="btn btn-lg btn-primary btn-block" type="submit">Send</button>
+				
+			</form>
+			
+		</div>
+	</body>
+</html>
